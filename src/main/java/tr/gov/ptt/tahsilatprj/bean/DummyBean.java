@@ -1,7 +1,12 @@
 
 package tr.gov.ptt.tahsilatprj.bean;
 
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
 
+
+@ManagedBean
+@RequestScoped
 public class DummyBean {
     
     private String ad;
@@ -23,6 +28,16 @@ public class DummyBean {
         this.sifre = sifre;
     }
     
+    public String sayfayaGit()
+    {
+       return "";
+    }
+    
     
     
 }
+
+
+
+
+

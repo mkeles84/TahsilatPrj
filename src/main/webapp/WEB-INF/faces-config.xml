@@ -8,8 +8,8 @@
     <application>
         
         <locale-config>
-            <default-locale>tr</default-locale>
-            <supported-locale>en</supported-locale>
+            <default-locale>en</default-locale>
+            <supported-locale>tr</supported-locale>
         </locale-config>
         
         <resource-bundle>
